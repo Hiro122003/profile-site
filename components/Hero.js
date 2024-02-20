@@ -34,7 +34,7 @@ const Hero = () => {
   });
 
   return (
-    <section id="home" className="py-20 max-md:py-0">
+    <section id="home" className="py-20 max-md:py-0 mt-[150px]">
       <div className="container px-4 mx-auto">
         <div
           className="lg:flex justify-between items-center

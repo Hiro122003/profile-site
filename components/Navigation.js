@@ -53,7 +53,7 @@ const Navigation = () => {
   return (
     <>
       {/* webメニュー */}
-      <header className="py-7 bg-#454545">
+      <header className="py-7 bg-[#fff] shadow-xl fixed top-0  w-full z-[9999]">
         <div className="container px-4 mx-auto ">
           <div className="flex items-center justify-between">
             {/* ロゴ */}
@@ -73,7 +73,7 @@ const Navigation = () => {
             <div className="hidden lg:block text-center ">
               <ul className="flex space-x-7">
                 {navigationMenu.map((item, index) => (
-                  <li key={index} className="text-body">
+                  <li key={index} className="text-body font-semibold">
                     <Link href={item.href}>{item.label}</Link>
                   </li>
                 ))}
