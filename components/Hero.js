@@ -33,6 +33,16 @@ const Hero = () => {
     });
   });
 
+  const scrollToWorks = () => {
+    const works = document.getElementById('works');
+    works.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const scrollToBlog = () => {
+    const blog = document.getElementById('blog');
+    blog.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <section id="home" className="py-20 max-md:py-0 mt-[150px]">
       <div className="container px-4 mx-auto">
@@ -69,12 +79,12 @@ const Hero = () => {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <Link href={""} className="btnGreen">
+              <button onClick={scrollToWorks} className="btnGreen">
                 Works
-              </Link>
-              <Link href={''} className="btnBlue ">
+              </button>
+              <button onClick={scrollToBlog} className="btnBlue ">
                 Blog/News
-              </Link>
+              </button>
             </div>
           </div>
 

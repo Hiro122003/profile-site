@@ -46,7 +46,7 @@ function Testimonials() {
     });
   });
   return (
-    <section id="testimonials" className="py-20 bg-amber-100 ">
+    <section id="works" className="py-20 bg-amber-100 ">
       <div className="container px-4 mx-auto">
         <div className="lg:flex justify-between items-center">
           {/* 右 */}

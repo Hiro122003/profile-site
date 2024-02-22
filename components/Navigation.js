@@ -13,19 +13,19 @@ const navigationMenu = [
     label: 'ホーム',
   },
   {
-    href: '/skills',
+    href: '#skills',
     label: 'スキル',
   },
   {
-    href: '/hobbies',
+    href: '#hobbies',
     label: '趣味',
   },
   {
-    href: '/works',
+    href: '#works',
     label: '作品',
   },
   {
-    href: '/blog',
+    href: '#blog',
     label: 'ブログ・ニュース',
   }
 ];
@@ -53,7 +53,7 @@ const Navigation = () => {
   return (
     <>
       {/* webメニュー */}
-      <header className="py-7 bg-[#fff] shadow-xl fixed top-0  w-full z-[9999]">
+      <header className="py-7 bg-[#fff] shadow-xl">
         <div className="container px-4 mx-auto ">
           <div className="flex items-center justify-between">
             {/* ロゴ */}

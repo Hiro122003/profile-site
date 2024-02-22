@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <Suspense fallback={<Loading />}>
           <Navigation />
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </Suspense>
       </body>
     </html>

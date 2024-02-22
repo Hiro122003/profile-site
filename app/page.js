@@ -3,6 +3,7 @@ import Skills from "../components/Skills";
 import Hobbies from "../components/Hobbies";
 import Works from "../components/Works";
 import Blog from "../components/Blog";
+import Test from "../components/Test";
 
 import Image from "next/image";
 
@@ -16,6 +17,7 @@ export default function Home() {
     <Hobbies/>
     <Works/>
     <Blog/>
+    {/* <Test/> */}
    </div>
   );
 }
